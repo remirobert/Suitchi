@@ -13,6 +13,13 @@
   <img src ="https://raw.githubusercontent.com/remirobert/Suitchi/master/README/simple2.gif"/>
 </p>
 
+Installation
+============
+Cocoapod
+```
+pod 'Suitchi'
+```
+
 How it works ?
 ==============
 To make your life easier and make your most beautiful and maintainable code, **Suitchi** uses blocks to retrieve the events.
