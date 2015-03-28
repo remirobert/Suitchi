@@ -307,7 +307,9 @@ class Suitchi: UIView, UIGestureRecognizerDelegate {
         let centerView = UIView()
         centerView.backgroundColor = UIColor.whiteColor()
         
-        self.bringSubviewToFront(self.centerViewLabel)
+        if self.centerText != nil {
+            self.bringSubviewToFront(self.centerViewLabel)            
+        }
     }
     
     func swipeGesture(sender: UISwipeGestureRecognizer) {
