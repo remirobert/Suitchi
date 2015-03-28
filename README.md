@@ -6,8 +6,9 @@
 <p align="center">
   <img src ="https://raw.githubusercontent.com/remirobert/Suitchi/master/README/simple.gif"/>
 </p>
-
-Customize as you wish.
+<p align="center">
+  Customize as you wish.
+</p>
 <p align="center">
   <img src ="https://raw.githubusercontent.com/remirobert/Suitchi/master/README/simple2.gif"/>
 </p>
