@@ -250,7 +250,9 @@ class Suitchi: UIView, UIGestureRecognizerDelegate {
             self.offButton.enabled = true
             
             }) { (anim: Bool) -> Void in
-                self.completionOn()
+                if self.completionOn != nil {
+                    self.completionOn()
+                }
         }
     }
     
@@ -277,7 +279,9 @@ class Suitchi: UIView, UIGestureRecognizerDelegate {
             self.offButton.enabled = false
             
             }){ (anim: Bool) -> Void in
-              self.completionOff()
+                if self.completionOff != nil {
+                    self.completionOff()
+                }
         }
     }
     
