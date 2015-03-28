@@ -14,7 +14,7 @@ Customize as you wish.
 
 How it works ?
 ==============
-To make your life easier and make your most beautiful and maintainable code, suitchi uses blocks to retrieve the events.
+To make your life easier and make your most beautiful and maintainable code, **Suitchi** uses blocks to retrieve the events.
 ```Swift
 let genderSwitch = Suitchi(frame: CGRectMake(0, 0, 300, 100),
   onSwitchedBlock: { () -> () in
@@ -23,3 +23,24 @@ let genderSwitch = Suitchi(frame: CGRectMake(0, 0, 300, 100),
     println("Off !")
 }
 ```
+
+Get the current state, or change it:
+```Swift
+if genderSwitch.on {
+}
+
+genderSwitch.switchOn()
+genderSwitch.switchOff()
+```
+
+Some customisation:
+```Swift
+genderSwitch.offLabel = "Man"
+genderSwitch.onLabel = "Woman"
+
+genderSwitch.onColor = UIColor(red:1, green:0.15, blue:0.29, alpha:1)
+genderSwitch.offColor =  UIColor(red:0.3, green:0.3, blue:0.82, alpha:1)
+
+genderSwitch.centerText = "gender"
+```
+
