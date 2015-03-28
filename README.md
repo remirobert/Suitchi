@@ -20,6 +20,8 @@ Cocoapod
 pod 'Suitchi'
 ```
 
+Or just copy the **Sources/Suitchi.swift** file in your project.
+
 How it works ?
 ==============
 To make your life easier and make your most beautiful and maintainable code, **Suitchi** uses blocks to retrieve the events.
