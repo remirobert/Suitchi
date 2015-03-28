@@ -11,3 +11,15 @@ Customize as you wish.
 <p align="center">
   <img src ="https://raw.githubusercontent.com/remirobert/Suitchi/master/README/simple2.gif"/>
 </p>
+
+How it works ?
+==============
+To make your life easier and make your most beautiful and maintainable code, suitchi uses blocks to retrieve the events.
+```Swift
+let genderSwitch = Suitchi(frame: CGRectMake(0, 0, 300, 100),
+  onSwitchedBlock: { () -> () in
+    println("On !")
+  }) { () -> () in
+    println("Off !")
+}
+```
