@@ -175,8 +175,8 @@ class Suitchi: UIView, UIGestureRecognizerDelegate {
             super.init(frame: frame)
         }
         
-        init(text: String) {
-            super.init()
+        convenience init(text: String) {
+            self.init()
             
             self.text = text
             self.frame.size = CGSizeMake(self.centerLabel.frame.size.width, self.centerLabel.frame.size.height)
