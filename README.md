@@ -25,7 +25,7 @@
 
 Installation
 ============
-Cocoapods
+CocoaPods
 ```
 pod 'Suitchi'
 ```
